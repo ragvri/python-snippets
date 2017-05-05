@@ -17,7 +17,7 @@ df3 = pd.DataFrame({'HPI':[80,85,88,85],
                     'Low_tier_HPI':[50, 52, 50, 53]},
                    index = [2001, 2002, 2003, 2004])
 
-concat=pd.concat([df1,df2,df3])
+concat=pd.concat([df1,df2,df3]) #join dataframes along rows
 #print(concat) # not works properly
 
 df4=df1.append(df3)
