@@ -40,6 +40,9 @@ df5 = pd.DataFrame({'Year': [80, 85, 88, 85],
                     'Unemployment': [7, 8, 9, 6],
                     'Low_tier_HPI': [50, 52, 50, 53]})
 
-print(pd.merge(df4, df5, on='Year', how='Left'))  # how='Left' tells that the years of df4 (which is on left) need to be
+print(pd.merge(df4, df5, on='Year', how='left'))  # how='Left' tells that the years of df4 (which is on left) need to be
 # retained. If data for df5 is not available, then Nan showed
 # putting how='outer' will join on the union of the keys. So in this case no data lost. If how='inner' then intersection
+
+
+# as a thumb rule, use join when you care about the index, merge when you don't
