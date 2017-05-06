@@ -6,7 +6,7 @@ colors = []
 dates = []
 with open('eg.csv') as csv_file:
     readcsv = csv.reader(csv_file, delimiter=',')
-    # print(readcsv)
+    print(readcsv)
     for row in readcsv:
         print(row)
         color = row[3]
