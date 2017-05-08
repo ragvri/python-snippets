@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c7e1100-3c16-4cfd-b70a-6d2b51665129" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intermediate_python_stuff/csv_module.py" afterPath="$PROJECT_DIR$/intermediate_python_stuff/csv_module.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intermediate_python_stuff/error_handling.py" afterPath="$PROJECT_DIR$/intermediate_python_stuff/error_handling.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intermediate_python_stuff/urllib_module.py" afterPath="$PROJECT_DIR$/intermediate_python_stuff/urllib_module.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/matplotlib/scatter_plots_and_bar_graphs.py" afterPath="$PROJECT_DIR$/matplotlib/scatter_plots_and_bar_graphs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/matplotlib/sample.csv" afterPath="$PROJECT_DIR$/matplotlib/sample.csv" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,10 +12,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/snippets$live_updating_chart.coverage" NAME="live_updating_chart Coverage Results" MODIFIED="1494219878421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
     <SUITE FILE_PATH="coverage/snippets$second.coverage" NAME="second Coverage Results" MODIFIED="1494065300519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
     <SUITE FILE_PATH="coverage/snippets$scatter_plots_and_bar_graphs.coverage" NAME="scatter_plots_and_bar_graphs Coverage Results" MODIFIED="1494066232172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
     <SUITE FILE_PATH="coverage/snippets$csv_matplotlib.coverage" NAME="csv&amp;matplotlib Coverage Results" MODIFIED="1494215204914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
-    <SUITE FILE_PATH="coverage/snippets$csv_module.coverage" NAME="csv_module Coverage Results" MODIFIED="1494213972343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intermediate_python_stuff" />
+    <SUITE FILE_PATH="coverage/snippets$csv_module.coverage" NAME="csv_module Coverage Results" MODIFIED="1494219135575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intermediate_python_stuff" />
     <SUITE FILE_PATH="coverage/snippets$first.coverage" NAME="first Coverage Results" MODIFIED="1494064598803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
     <SUITE FILE_PATH="coverage/snippets$basics.coverage" NAME="basics Coverage Results" MODIFIED="1494069050407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socketprogramming" />
     <SUITE FILE_PATH="coverage/snippets$using_labels.coverage" NAME="using_labels Coverage Results" MODIFIED="1494065709292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
@@ -29,28 +27,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="basic_plotting.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matplotlib/basic_plotting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="csv&amp;matplotlib.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matplotlib/csv&amp;matplotlib.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="scatter_plots_and_bar_graphs.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/matplotlib/scatter_plots_and_bar_graphs.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modifying_dataframe.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="modifying_dataframe.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pandas_data_analysis/modifying_dataframe.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -115,23 +91,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="using_styles.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matplotlib/using_styles.py">
+      <file leaf-file-name="live_updating_chart.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/matplotlib/live_updating_chart.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="18">
+              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding>
-                <element signature="e#17#48#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="using_labels.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matplotlib/using_labels.py">
+      <file leaf-file-name="csv_module.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/intermediate_python_stuff/csv_module.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="162">
+              <caret line="9" column="57" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eg.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/intermediate_python_stuff/eg.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/matplotlib/sample.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -167,6 +163,8 @@
         <option value="$PROJECT_DIR$/intermediate_python_stuff/csv_module.py" />
         <option value="$PROJECT_DIR$/intermediate_python_stuff/urllib_module.py" />
         <option value="$PROJECT_DIR$/matplotlib/scatter_plots_and_bar_graphs.py" />
+        <option value="$PROJECT_DIR$/matplotlib/sample.csv" />
+        <option value="$PROJECT_DIR$/matplotlib/live_updating_chart.py" />
       </list>
     </option>
   </component>
@@ -267,25 +265,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
   </component>
-  <component name="RunManager" selected="Python.csv&amp;matplotlib">
-    <configuration default="false" name="using_labels" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/matplotlib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="snippets" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplotlib/using_labels.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.live_updating_chart">
     <configuration default="false" name="scatter_plots_and_bar_graphs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -354,6 +334,24 @@
       <module name="snippets" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/socketprogramming/basics.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="live_updating_chart" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/matplotlib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="snippets" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplotlib/live_updating_chart.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -573,19 +571,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.using_labels" />
-      <item index="1" class="java.lang.String" itemvalue="Python.scatter_plots_and_bar_graphs" />
-      <item index="2" class="java.lang.String" itemvalue="Python.csv_module" />
-      <item index="3" class="java.lang.String" itemvalue="Python.csv&amp;matplotlib" />
-      <item index="4" class="java.lang.String" itemvalue="Python.basics" />
+      <item index="0" class="java.lang.String" itemvalue="Python.scatter_plots_and_bar_graphs" />
+      <item index="1" class="java.lang.String" itemvalue="Python.csv_module" />
+      <item index="2" class="java.lang.String" itemvalue="Python.csv&amp;matplotlib" />
+      <item index="3" class="java.lang.String" itemvalue="Python.basics" />
+      <item index="4" class="java.lang.String" itemvalue="Python.live_updating_chart" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.csv&amp;matplotlib" />
+        <item index="0" class="java.lang.String" itemvalue="Python.live_updating_chart" />
         <item index="1" class="java.lang.String" itemvalue="Python.csv_module" />
-        <item index="2" class="java.lang.String" itemvalue="Python.basics" />
-        <item index="3" class="java.lang.String" itemvalue="Python.scatter_plots_and_bar_graphs" />
-        <item index="4" class="java.lang.String" itemvalue="Python.using_labels" />
+        <item index="2" class="java.lang.String" itemvalue="Python.csv&amp;matplotlib" />
+        <item index="3" class="java.lang.String" itemvalue="Python.basics" />
+        <item index="4" class="java.lang.String" itemvalue="Python.scatter_plots_and_bar_graphs" />
       </list>
     </recent_temporary>
   </component>
@@ -615,7 +613,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -666,26 +664,10 @@
     <entry file="file://$PROJECT_DIR$/pandas_data_analysis/fifth" />
     <entry file="file://$PROJECT_DIR$/intermediate_python_stuff/ftplib.py" />
     <entry file="file://$PROJECT_DIR$/socketprogramming/basics.py" />
-    <entry file="file://$PROJECT_DIR$/intermediate_python_stuff/eg.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/intermediate_python_stuff/eval.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/intermediate_python_stuff/csv_module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="119" lean-forward="false" selection-start-line="7" selection-start-column="119" selection-end-line="7" selection-end-column="119" />
           <folding />
         </state>
       </provider>
@@ -801,6 +783,40 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intermediate_python_stuff/eg.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intermediate_python_stuff/csv_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="57" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/sample.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/live_updating_chart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
