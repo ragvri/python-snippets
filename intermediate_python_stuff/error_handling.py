@@ -5,7 +5,7 @@ import csv  # csv means comma separated in delimiter
 colors = []
 dates = []
 with open('eg.csv') as csv_file:
-    readcsv = csv.reader(csv_file, delimiter=',')
+    readcsv = csv.reader(csv_file, delimiter=',')  # delimeter tells how the data is separated. here they are by commas
     # print(readcsv)
     for row in readcsv:
         print(row)

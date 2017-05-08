@@ -16,5 +16,5 @@ plt.scatter(x2, y2, label='line two', color='yellow')
 plt.show()
 
 # for bar charts
-plt.bar(x, y, color='green', align='center')# center aligns the bar on the its x label
+plt.bar(x, y, color='green', align='center')  # center aligns the bar on the its x label
 plt.show()
