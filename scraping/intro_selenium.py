@@ -1,22 +1,23 @@
-from selenium import webdriver                    #webdriver actually allows us to open the browser
-from selenium.webdriver.common.by import By       #By allows to search for specific parameters
-from selenium.webdriver.support.ui import WebDriverWait  #WebdriveWait allows for the page to load
-from selenium.webdriver.support import expected_conditions as EC   #allows us to specify conditions deciding that the webpage has loaded
-from selenium.common.exceptions import TimeoutException
+import time
+from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 
 
-#allows us to open the page in incognito mode
-option=webdriver.ChromeOptions()
-option.add_argument("--incognito")
+browser = webdriver.Chrome('/usr/local/bin/chromedriver')
+browser.get('https://ww1.gogoanime.io/pokemon-sun-moon-episode-21')  # goes to specific page
 
-#create a new instance of chrome in incognito mode
-#we need to specify the path where the chrome driver is located (use command : which chromedriver)
-browser=webdriver.Chrome(executable_path="/usr/local/bin/chromedriver",chrome_options=option)
-
-#go to the specific page
-browser.get("https://finance.yahoo.com/quote/FB/?p=FB")
-
-#wait upto 10s for the page to load
-timeout=20
+# waiting for the page to load for max time =10
+timeout = 10
 try:
-    WebDriverWait(browser,timeout=timeout).until(EC._element_if_visible(By.XPATH,""))
+    WebDriverWait(browser, timeout).until(EC.visibility_of_element_located((By.CLASS_NAME, "btndownload")))
+except Exception as e:
+    print(e)
+
+download = browser.find_element_by_class_name('btndownload')
+download.click()
+time.sleep(5)
+link_download = browser.find_element_by_class_name("dowload")
+print(link_download)
+browser.quit()
