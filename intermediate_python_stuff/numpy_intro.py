@@ -31,11 +31,11 @@ a = np.array([2, 3, 4])  # creates a 1*3 array
 b = np.array([(1, 2, 3), (4, 5, 6)])
 print(b)
 # b
-# array([[ 1.5,  2. ,  3. ],
+# array([[ 1,  2. ,  3. ],
 #        [ 4. ,  5. ,  6. ]])
 
 # type of array can be specified while creation
-c = np.array([1, 2, ], [3, 4], dtype=complex)
+c = np.array([[1, 2, ], [3, 4]], dtype=complex)
 # c
 # array([[ 1.+0.j,  2.+0.j],
 #        [ 3.+0.j,  4.+0.j]])
